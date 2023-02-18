@@ -1,0 +1,16 @@
+.block1 {
+width: 80vw;
+height: 50vh;
+margin: 25px auto;
+background: url(/laptop.jpg) 50% 50% / 300px  no-repeat, linear-gradient(rgb(22, 20, 20), rgb(73, 49, 71),  rgb(167, 84, 160));
+}
+
+.block2 {
+width: 80vw;
+height: 50vh;
+margin: 25px auto; 
+border: 1px solid #333;
+background: url(/dog.jpg) 50% 50% , linear-gradient( 70deg, rgb(22, 20, 20), rgb(73, 49, 71),  rgb(167, 84, 160));  
+background-repeat: no-repeat;
+
+}

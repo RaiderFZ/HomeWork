@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Rubik";
+    src: url(../fonts/Rubik-Medium.woff2) format("woff2"),
+        url(../fonts/Rubik-Medium.woff) format("woff"),
+        url(../fonts/Rubik-Medium.eot) format("eot");
+    src: local("Rubik Medium"),
+        local("Rubik-Medium");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Rubik";
+    src: url(../fonts/Rubik-MediumItalic.woff2) format("woff2"),
+        url(../fonts/Rubik-MediumItalic.woff.woff) format("woff"),
+        url(../fonts/Rubik-MediumItalic.eot) format("eot");
+    src: local("Rubik Medium italic"),
+        local("Rubik-Mediumitalic");   
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Rubik";
+    src: url(../fonts/Rubik-Bold.woff2) format("woff2"),
+        url(../fonts/Rubik-Bold.woff) format("woff"),
+        url(../fonts/Rubik-Bold.eot) format("eot");
+    src: local("Rubik Bold"),
+        local("Rubik-Bold");   
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.text1 {
+    padding-bottom: 50px;
+    font-family: "Rubik", sans-serif;
+}
+
+.medium {
+    font-weight: 500;
+
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.medium-itallic {
+    font-style: italic;
+}
+
+.text2 {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.bold2 {
+    font-weight: 700;
+}
+
+.medium-itallic2 {
+    font-style: italic;
+}
