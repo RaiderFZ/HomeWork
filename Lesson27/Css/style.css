@@ -1,0 +1,44 @@
+.text {
+    text-align: center;
+    font-size: 20px;
+    animation: text-animation 2s infinite 1s alternate ;
+}
+
+@keyframes text-animation {
+    from {
+        color: red;
+    }
+
+    to {
+        color: black;
+    }
+}
+
+
+
+@keyframes block {
+    from {
+        left: 0%;
+    }
+
+    to {
+        left: calc(100% - 200px) ;
+    }
+}
+
+.block1 {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    position: absolute;
+
+    animation: block 2s infinite alternate 1s ;
+
+}
+
+.parent {
+    height: 202px;
+    margin: 50px 100px ;
+    border: 2px solid gray;
+    position: relative;
+}

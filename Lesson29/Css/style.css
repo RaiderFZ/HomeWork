@@ -1,0 +1,24 @@
+* {
+    background-color: #c2c2c2;
+}
+
+.grid-parent {
+    max-width: 1600px;
+    margin: 50px auto;
+    background-color: gray;
+
+    display: grid;
+    /* grid-template: auto auto  /  repeat(5, 1fr); */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto; */
+
+    grid-template: 
+    auto auto / 1fr 1fr minmax(100px , 200px) 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-child {
+    background-color: #a4e486;
+    border: 5px solid rgb(101, 184, 233);
+}

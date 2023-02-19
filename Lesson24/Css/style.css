@@ -1,0 +1,25 @@
+* {
+    background-color: #333;
+    
+}
+
+.block {
+    height: 100px;
+    width: 400px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px 1px ;
+
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+    left: 50%;
+    top: 100px;
+}
+
+.parent {
+    border: 2px solid black;
+    width: 80%;
+    padding: 200px;
+    margin: 25px auto;
+}
