@@ -1,0 +1,16 @@
+.main-item {
+    width: 100vw;
+    margin: 0 auto;
+    background-color: #a8a8a8;
+    height: 100vh;
+    padding: 50vh 0;
+}
+
+p {
+    text-align: center;
+    transition: .5s;
+}
+
+p:first-child:hover {
+    color: red;
+}
