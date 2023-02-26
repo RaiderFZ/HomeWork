@@ -3,12 +3,15 @@
 *::before,
 *::after {
     box-sizing: border-box;
+    margim: 0;
+    pading: 0;
 }
 
 /* Убираем внутренние отступы */
 ul[class],
 ol[class] {
     padding: 0;
+    
 }
 
 
