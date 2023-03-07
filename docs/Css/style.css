@@ -303,16 +303,6 @@ html, body {
 /* ============================= About us ============================== */
 .about {}
 
-.about::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  background: url("../img/Decor-1.svg");
-  width: 100px;
-  height: 85px;
-}
-
 .about__createx {
   display: flex;
   align-items: center;
