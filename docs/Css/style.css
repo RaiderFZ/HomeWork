@@ -1984,7 +1984,7 @@ html, body {
   .testimonials__slider-wrapper {
     padding: 0;
   }
-  .testimonials__slider{
+  .testimonials__slide {
     padding: 30px 15px;
   }
   .testimonials__arrow {
@@ -2020,7 +2020,7 @@ html, body {
     padding-bottom: 100px;
   }
   .main__team {
-    padding: 120px 0 1px 100px;
+    padding: 120px 0 100px;
   }
   .main__companies {
     padding-bottom: 40px;
