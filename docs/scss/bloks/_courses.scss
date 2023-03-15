@@ -1,0 +1,88 @@
+.courses {
+  /* Стили для COURSES */
+  padding-top: 320px;
+  max-width: 1150px;
+  margin: 0 auto;
+  /* Стили для вложенности */
+  
+  &__inner {
+    
+  }
+  &__content {
+
+  }
+  &__suvtitle {
+    padding-bottom: 18px;
+  }
+  &__title {
+    font-size: 56px;
+    line-height: 64px;
+    padding-bottom: 60px;
+  }
+  &__grid {
+    
+  }
+  &__row {
+  background: #FFFFFF;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.0818614);
+  border-radius: 12px;
+  
+  }
+  &__row-text{
+
+  }
+  &__profile {
+    
+  }
+  &__profile-icon {
+    padding-right: 10px;
+  }
+
+  &__profile-icon--hover{
+    width: 98.19%;
+    height: 45.237%;
+  }
+  &__row-content {
+    padding: 24px;
+  }
+
+  &__profile-name {
+
+  }
+  
+  &__start-box {
+  }
+  &__start-cost {
+
+  }
+
+  &__start-btn {
+
+  }
+  &__object {
+
+  } 
+
+  &__button {
+  }
+}
+.grid-row-1 {
+}
+.grid-row-2 {
+
+}
+.grid-row-3 {
+
+}
+.grid-row-4 {
+
+}
+.grid-row-5 {
+
+}
+.grid-row-6 {
+
+}
+.grid-row-7 {
+
+}
