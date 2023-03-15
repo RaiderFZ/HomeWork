@@ -65,7 +65,7 @@ html, body {
 /* ======================= HEADER =================== */
 .header {
   /* Стили для Header */
-  background: url(../../img/header/header-decor.svg) center/100% no-repeat #EAF3FF;
+  background: url(../img/header/header-decor.svg) center/100% no-repeat #EAF3FF;
   /* Стили для для вложенности */
 }
 .header__top {
