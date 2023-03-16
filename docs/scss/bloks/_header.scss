@@ -1,0 +1,92 @@
+.header {
+/* Стили для Header */
+  background:url(../../img/header/header-decor.svg) 0 0 / 100% no-repeat $color-bg-blue;
+
+
+/* Стили для для вложенности */
+
+  &__top {
+    padding-top: 30px;
+    padding-bottom: 115px;
+  }
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__logo {
+
+  }
+  &__nav {
+
+  }
+  &__nav-list {
+    display: flex;
+    
+  }
+  &__nav-item {
+    padding-right: 47.5px;
+    transition: all .3s;
+  }
+  &__nav-item:hover {
+    transform: scale(1.05);
+    color: $color-btn-blue;
+  }
+  &__nav-item:last-child {
+    padding-right: 0px;
+  }
+  &__nav-link {
+    
+  }
+  
+  &__button {
+    padding: 14px 31.3px;
+    color: $color-btn-blue;
+    transition: all .3s;
+  }
+  
+  &__body {
+    padding-bottom: 100px;
+    max-width: 1220px;
+    margin: 0 auto;
+    position: relative;
+
+    }
+
+  &__body-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__content {
+    max-width: 470px;
+  }
+
+  &__content-subtitle {
+    padding-bottom: 21px;
+  }
+  &__content-title {
+    letter-spacing: -3px;
+    font-size: 72px;
+    line-height: 80px;
+    padding-bottom: 27px;
+  }
+  &__content-text {
+    padding-bottom: 38px;
+  }
+  &__content-btn {
+    color:#FFFFFF ;
+    background: $color-btn-blue;
+    padding: 14px 40.5px;
+  
+  }
+  &__image-box {
+    width: 570px;
+    height: 570px;
+    
+  }
+}
+
+
