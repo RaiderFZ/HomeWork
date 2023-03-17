@@ -1,0 +1,76 @@
+.learn {
+  /* Стили для LEARN */
+  margin: 0 auto;
+  background: url(../../img/decor-learn.svg) 0 70% / 100% no-repeat, $color-bg-blue;
+  /* Стили для вложенности*/
+
+  &__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
+  &__content {
+    text-align: center;
+  }
+  &__subtitle {
+    padding-bottom: 18px;
+  }
+  &__title {
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -2px;
+    padding-bottom: 67px;
+  }
+  &__cards {
+  }
+  
+  &__card {
+    display: flex;
+    max-width: 670px;
+    align-items: center;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.0818614);
+    border-radius: 12px;
+    background: #fff;
+    margin-bottom: 30px;
+    transition: all .3s;
+  }
+  &__card:hover {
+    transform: scale(1.05);
+  }
+  &__card-number {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 80px;
+    letter-spacing: -3px;
+    padding: 56px 58px;
+    
+    border-radius: 12px 0px 0px 12px;
+  }
+  &__card-number--blue {
+    background: #E3F0FF;
+  }
+  &__card-number--orange {
+    background: #FFF2DE;
+    border-radius: 0px 12px 12px 0px;
+  }
+  &__card-number--red {
+    background: #FFE2E5;
+  }
+  &__card-content {
+    padding:40px 50px 32px 48px ;
+  }
+  &__card-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    padding-bottom: 19px;
+  }
+  &__card-text {
+    color: rgba(51, 51, 51, 0.5);
+    max-width: 372px;
+  }
+  &__cards--right{
+    margin-left: 100px;
+  }
+}
