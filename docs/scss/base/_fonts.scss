@@ -1,0 +1,21 @@
+@font-face {
+  font-family: Sora;
+  src: local("Sora"),
+      url(../../fonts/Sora-Regular.woff2) format("woff2"), 
+      url(../../fonts/Sora-Regular.woff) format("woff"),
+      url(../../fonts/Sora-Regular.eot) format("eot");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;    
+}
+
+@font-face {
+  font-family: Sora;
+  src: local("Sora"),
+      url(../../fonts/Sora-Bold.woff2) format("woff2"), 
+      url(../../fonts/Sora-Bold.woff) format("woff"),
+      url(../../fonts/Sora-Bold.eot) format("eot");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap; 
+}
