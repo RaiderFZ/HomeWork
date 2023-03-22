@@ -1,0 +1,93 @@
+.about {
+  /* Стили для about */
+  margin: 0 auto;
+  background: $color-bg-blue;
+  
+
+  /* Стили для вложенности */
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 200px;
+  }
+  &__img-box{
+    margin-right: 130px;
+  }
+  &__content {
+
+  }
+
+  &__subtitle {
+    padding-bottom: 18px;
+  }
+
+  &__title {
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -2px;
+    max-width: 356px;
+    padding-bottom: 28px;
+  }
+
+  &__text {
+    color: #333333;
+    font-size: 20px;
+    padding-bottom: 34px;
+  }
+
+  &__button {
+    padding: 15px 39px;
+    color: $color-btn-blue;
+  }
+
+  &__numbers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__number-box {
+    text-align: center;
+  }
+  &__number {
+    letter-spacing: -2px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    position: relative;
+  }
+  &__number-title {
+    font-size: 20px;
+  }  
+  &__number-subtitle {
+    color: rgba(51, 51, 51, 0.5);
+  }
+
+  &__number--plus::after {
+    content: '\002B';
+    font-size: 30px;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: 18px;
+    line-height: 32px;
+  }
+  &__number--percent::after {
+    content: '\0025';
+    font-size: 30px;
+    display: inline-block;
+    position: absolute;
+    top: -10px;
+    right: 50px;
+    
+  }
+  &__number--zero::after{
+    content: '.000';
+    font-size: 24px;
+    display: inline-block;
+    position: absolute;
+    top: -12px;
+    right: 0px;
+  }
+
+}
