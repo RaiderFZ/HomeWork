@@ -1,14 +1,14 @@
 @charset "UTF-8";
 @font-face {
   font-family: Sora;
-  src: local("Sora"), url(../../fonts/Sora-Regular.woff2) format("woff2"), url(../../fonts/Sora-Regular.woff) format("woff"), url(../../fonts/Sora-Regular.eot) format("eot");
+  src: local("Sora"), url(../fonts/Sora-Regular.woff2) format("woff2"), url(../fonts/Sora-Regular.woff) format("woff"), url(../fonts/Sora-Regular.eot) format("eot");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: Sora;
-  src: local("Sora"), url(../../fonts/Sora-Bold.woff2) format("woff2"), url(../../fonts/Sora-Bold.woff) format("woff"), url(../../fonts/Sora-Bold.eot) format("eot");
+  src: local("Sora"), url(../fonts/Sora-Bold.woff2) format("woff2"), url(../fonts/Sora-Bold.woff) format("woff"), url(../fonts/Sora-Bold.eot) format("eot");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -230,7 +230,7 @@ html, body {
 /* ======================= HEADER =================== */
 .header {
   /* Стили для Header */
-  background: url(../../img/header/header-decor.svg) 0 0/100% no-repeat #EAF3FF;
+  background: url(../img/header/header-decor.svg) 0 0/100% no-repeat #EAF3FF;
   /* Стили для для вложенности */
 }
 .header__top {
@@ -322,7 +322,7 @@ html, body {
   background-color: #EAF3FF;
   padding-top: 120px;
   max-height: 460px;
-  background-image: url(../../img/header/header-decor2.svg);
+  background-image: url(../img/header/header-decor2.svg);
   background-position: 50% 0%;
   background-repeat: no-repeat;
   /* Стили для Вложенности */
@@ -694,7 +694,7 @@ html, body {
 .learn {
   /* Стили для LEARN */
   margin: 0 auto;
-  background: url(../../img/decor-learn.svg) 0 70%/100% no-repeat, #EAF3FF;
+  background: url(../img/decor-learn.svg) 0 70%/100% no-repeat, #EAF3FF;
   /* Стили для вложенности*/
 }
 .learn__inner {
@@ -975,7 +975,7 @@ html, body {
 
 /* Стили для SERVICE sections 3 */
 .service__bord {
-  background: url(../../img/service/block-service.svg) 0 0/100% no-repeat;
+  background: url(../img/service/block-service.svg) 0 0/100% no-repeat;
 }
 .service__bord-inner {
   display: -webkit-box;
@@ -2180,7 +2180,7 @@ html, body {
   .service__bord {
     width: 329px;
     height: 368px;
-    background: url(../../img/service/block-service-mini.svg);
+    background: url(../img/service/block-service-mini.svg);
   }
   .service__bord-inner {
     -webkit-box-orient: vertical;
