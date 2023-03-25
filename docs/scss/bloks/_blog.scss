@@ -1,0 +1,100 @@
+
+.blog {
+/* Стили для OUR BLOG */ 
+
+/* Стили для вложенности */
+  &__inner {
+  }
+  &__content {
+    padding-bottom: 67px;
+  }
+  &__subtitle {
+  }
+  &__title {
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -2px;
+  }
+  &__cards {
+    padding-bottom: 64px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+  }
+  &__card {
+    max-width: 270px;
+    height: 368px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.0818614);
+    border-radius: 12px;
+  }
+  &__card--hover {
+    position: relative;
+    z-index: 100;
+    max-width: 570px;
+    
+  }
+  &__card-box {
+    padding: 24px;
+  }
+  &__card-box--hover {
+    padding: 32px;
+    width: 100%;
+    height: 100%;
+  }
+  &__card-image {
+
+    width: 100%;
+    height: 100%;
+    padding-bottom: 24px;
+    margin: -24px;
+    max-width: 270px;
+  }
+  &__card-image--hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    margin: 0;
+  }
+  
+  &__card-data {
+    padding: 9px 15px 7px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    position: absolute;
+    top: 32px;
+    left: 24px;
+    font-size: 20px;
+  }
+  &__card-data--hover {
+  }
+  &__card-title {
+    font-size: 24px;
+    padding-bottom: 9px;
+  }
+  &__card-title--hover {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+    padding-top: 122px;
+  }
+  &__card-text {
+    color: rgba(51, 51, 51, 0.5);
+  }
+  &__card-text--hover {
+    color: rgba(255, 255, 255, 0.502972);
+  }
+  &__button {
+    display: block;
+    margin: 0 auto;
+    width: 170px;
+    white-space: nowrap;
+    padding: 15px 50px;
+    color: #4A90E2;
+  }
+
+
+}
