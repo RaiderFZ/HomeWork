@@ -1319,7 +1319,7 @@ html, body {
 }
 
 .accordion__item-title::after {
-  content: url(../../img/FAQ/up.svg);
+  content: url(../img/FAQ/up.svg);
   cursor: pointer;
   position: absolute;
   top: -5px;
